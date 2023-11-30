@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/27d5cd3f15.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input Wave</title>
+</head>
+<body>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>jayalakshmirao23@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8431818790</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com/jayalakshmi_rao23/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/jayalakshmi-p-a4ba2b208/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Jayalakshmi_Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <div class="form-control">
+                            <input type="text" name="Name" placeholder="" required>
+                            <label>Name</label>
+                        </div>
+                        <div class="form-control">
+                            <input type="email" name="Email" placeholder="" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="form-control">
+                            <input type="text" name="Message" required>
+                            <!-- <textarea name="Message" rows="1" placeholder=""></textarea> -->
+                            <label>Message</label>
+                        </div>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
